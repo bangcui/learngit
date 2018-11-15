@@ -66,9 +66,9 @@ async def execute(sql, args, autocommit=True):
 
 #定义Field
 class Field(object):
-    def __init__(self,name,colum_type,primary_key,default):
+    def __init__(self,name,column_type,primary_key,default):
         self.name = name
-        self.colum_type = colum_type
+        self.column_type = column_type
         self.primary_key = primary_key
         self.default = default
     def __str__(self):
